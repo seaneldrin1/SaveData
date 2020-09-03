@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".MainActivity">
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/etName" android:hint="Please Enter Name"
+			android:textSize="24sp" android:textStyle="bold" android:gravity="center_horizontal"
+			android:layout_marginTop="10dp"/>
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/etSurname" android:hint="Please Enter Surname"
+			android:textStyle="bold" android:textSize="24sp" android:gravity="center_horizontal"
+			android:layout_marginTop="10dp"/>
+	<Button
+			android:text="ADD DATA"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/btnAddData" android:layout_marginTop="10dp"
+			android:onClick="btnAddDta"/>
+	<Button
+			android:text="Button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/btnSaveData" android:layout_marginTop="10dp"
+			android:onClick="btnSaveData"/>
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/tvResult" android:layout_marginTop="10dp"
+			android:inputType="textMultiLine"/>
+</LinearLayout>
